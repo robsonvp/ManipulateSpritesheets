@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-def cut_spritesheet(file_path, output_folder, sprite_size=(32, 32)):
+def cut_spritesheet(file_path, output_folder, sprite_size=(32, 32)): #change it as you need
     # Load the image
     try:
         sheet = Image.open(file_path)
@@ -40,9 +40,9 @@ def cut_spritesheet(file_path, output_folder, sprite_size=(32, 32)):
 
 if __name__ == "__main__":
     # Path to your sprite sheet
-    sprite_sheet_path = "C:\\Users\\binho\\Desktop\\Juegos\\CustomScripts\\demoniaMule\\outfit_1302.png"
+    sprite_sheet_path = "C:\\Example.png"
     # Directory where you want to save the tiles
-    output_directory = "C:\\Users\\binho\\Desktop\\Juegos\\CustomScripts\\demoniaMule"
+    output_directory = "C:\\folderExample"
 
     cut_spritesheet(sprite_sheet_path, output_directory)
 
