@@ -24,6 +24,6 @@ def resize_images_in_range(start, end, input_dir, output_dir, size=(64, 64)):
         resize_image(input_path, output_path, size)
 
 # Example usage
-input_directory = 'C:/Users/binho/Desktop/Juegos/Ravendawn/npc_bebendoBandido'
-output_directory = 'C:/Users/binho/Desktop/Juegos/Ravendawn/npc_bebendoBandido/64'
+input_directory = 'C:/exampleInputFolder'
+output_directory = 'C:/exampleOutputFolder'
 resize_images_in_range(0, 251, input_directory, output_directory)
